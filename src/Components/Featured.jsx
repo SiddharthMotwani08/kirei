@@ -60,7 +60,7 @@ function Featured() {
                   </motion.span>
                 ))}
               </h1>
-              <img className='w-full' src="https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png" alt="" />
+              <img className='w-full h-full object-cover' src="https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png" alt="" />
             </div>
           </motion.div>
         </div>
