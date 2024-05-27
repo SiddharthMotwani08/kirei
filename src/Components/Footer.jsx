@@ -9,10 +9,10 @@ function Footer() {
     >
       <div className='w-full md:w-1/2 h-full flex flex-col justify-between'>
         <div>
-          <h1 className='text-4xl md:text-[12vh] font-semibold -mb-4 leading-none tracking-tighter'>
+          <h1 className='text-4xl md:text-[10vh] font-semibold -mb-4 leading-none tracking-tighter'>
             EYE-
           </h1>
-          <h1 className='text-4xl md:text-[12vh] font-semibold -mb-4 leading-none tracking-tighter'>
+          <h1 className='text-4xl md:text-[10vh] font-semibold -mb-4 leading-none tracking-tighter'>
             OPENING
           </h1>
         </div>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </div>
       <div className='w-full md:w-1/2'>
-        <h1 className='text-4xl md:text-[12vh] font-semibold leading-none tracking-tighter'>
+        <h1 className='text-4xl md:text-[10vh] font-semibold leading-none tracking-tighter'>
           PRESENTATIONS
         </h1>
         <div className='mt-8 md:mt-60'>
