@@ -5,7 +5,7 @@ function Footer() {
     <div
       data-scroll
       data-scroll-speed=".2"
-      className='w-full h-screen p-8 md:p-16 flex flex-col md:flex-row'
+      className='w-full h-screen p-8 md:p-16 flex md:flex-row'
     >
       <div className='w-full md:w-1/2 h-full flex flex-col justify-between'>
         <div>
