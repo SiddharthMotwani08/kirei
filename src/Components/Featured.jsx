@@ -25,7 +25,7 @@ function Featured() {
             className='w-full md:w-1/2 h-[50vh] relative'
           >
             <div className='w-full h-full rounded-lg overflow-hidden'>
-              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] tracking-tight leading-none z-[9] left-full top-1/2 -translate-x-1/2 -translate-y-1/2'>
+              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] left-full top-1/2 -translate-x-1/2 -translate-y-1/2'>
                 {'FYDE'.split('').map((item, index) => (
                   <motion.span
                     initial={{ y: '100%' }}
@@ -47,7 +47,7 @@ function Featured() {
             className='w-full md:w-1/2 h-[50vh] relative'
           >
             <div className='w-full h-full rounded-lg overflow-hidden bg-zinc-800'>
-              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] tracking-tight leading-none z-[9] right-full top-1/2 translate-x-1/2 -translate-y-1/2'>
+              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] right-full top-1/2 translate-x-1/2 -translate-y-1/2'>
                 {'VISE'.split('').map((item, index) => (
                   <motion.span
                     initial={{ y: '100%' }}
