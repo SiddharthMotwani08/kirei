@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='w-full bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black'>
+    <div className='w-full bg-[#CDEA68] text-black mt-[-4.5px]'>
       <h1 className='p-8 md:p-16 text-3xl md:text-5xl leading-none tracking-tight'>
         Kirei is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.
       </h1>
