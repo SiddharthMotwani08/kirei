@@ -9,11 +9,11 @@ function Cards() {
         <div className='w-1/2 flex gap-5 items-center'>
             <div className='relative w-1/2 h-[50vh] bg-[#142523] rounded-lg flex items-center justify-center'>
                 <img src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
-                <h5 className='absolute left-[1vw] bottom-[1vw] rounded-full border-2 py-1 px-3 md:opacity-100 opacity-0'>RATING 5.0 ON CLUTCH</h5>
+                <h5 className='absolute left-[1vw] bottom-[1vw] text-sm rounded-full border-2 py-1 px-3 md:opacity-100 opacity-0'>RATING 5.0 ON CLUTCH</h5>
             </div>
             <div className='relative w-1/2 h-[50vh] bg-[#142523] rounded-lg flex items-center justify-center'>
                 <img className='w-24' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
-                <p className='absolute left-[1vw] bottom-[1vw] rounded-full border-2 py-1 px-3 md:opacity-100 opacity-0'>BUSINESS BOOTCAMP ALUMNI</p>
+                <p className='absolute left-[1vw] bottom-[1vw] text-sm rounded-full border-2 py-1 px-3 md:opacity-100 opacity-0'>BUSINESS BOOTCAMP ALUMNI</p>
             </div>
         </div>
     </div>
