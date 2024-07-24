@@ -24,8 +24,12 @@ function Featured() {
             onHoverEnd={() => isNotHovering(0)}
             className='w-full md:w-1/2 h-[50vh] relative'
           >
-            <div className='w-full h-full rounded-lg overflow-hidden'>
-              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] left-full top-1/2 -translate-x-1/2 -translate-y-1/2'>
+            <div className='w-full h-full rounded-lg overflow-hidden transition ease-in-out hover:scale-90 duration-300'>    
+              <div className='w-full h-full relative'>
+              <img className='w-full h-full object-cover rounded-md' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="" />
+              </div>
+            </div>
+            <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] left-1/2 md:left-full top-1/2 -translate-x-1/2 -translate-y-1/2'>
                 {'FYDE'.split('').map((item, index) => (
                   <motion.span
                     initial={{ y: '100%' }}
@@ -38,16 +42,16 @@ function Featured() {
                   </motion.span>
                 ))}
               </h1>
-              <img className='w-full h-full object-cover' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="" />
-            </div>
           </motion.div>
           <motion.div
             onHoverStart={() => isHovering(1)}
             onHoverEnd={() => isNotHovering(1)}
             className='w-full md:w-1/2 h-[50vh] relative'
           >
-            <div className='w-full h-full rounded-lg overflow-hidden bg-zinc-800'>
-              <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] right-full top-1/2 translate-x-1/2 -translate-y-1/2'>
+            <div className='w-full h-full rounded-lg overflow-hidden bg-zinc-800 transition ease-in-out hover:scale-90 duration-300'>
+              <img className='w-full h-full object-cover' src="https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png" alt="" />
+            </div>
+            <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] right-1/2 md:right-full top-1/2 translate-x-1/2 -translate-y-1/2'>
                 {'VISE'.split('').map((item, index) => (
                   <motion.span
                     initial={{ y: '100%' }}
@@ -60,8 +64,6 @@ function Featured() {
                   </motion.span>
                 ))}
               </h1>
-              <img className='w-full h-full object-cover' src="https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png" alt="" />
-            </div>
           </motion.div>
         </div>
       </div>
