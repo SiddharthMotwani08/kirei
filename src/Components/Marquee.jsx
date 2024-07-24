@@ -6,7 +6,7 @@ function Marquee() {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed=".007"
+      data-scroll-speed=".00009"
       className='w-full bg-[#004D43] rounded-tl-3xl rounded-tr-3xl py-20 overflow-hidden'
     >
       <div className='flex whitespace-nowrap border-t-2 border-b-2 border-zinc-300 px-5'>
