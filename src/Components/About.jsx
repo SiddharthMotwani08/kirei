@@ -1,4 +1,13 @@
 import React from 'react';
+import {useImage} from 'react-image'
+
+function AboutComponent() {
+  const {src} = useImage({
+    srcList: 'https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg',
+  })
+
+  return <img src={src} className='w-full h-full object-cover' />
+}
 
 function About() {
   return (
@@ -16,7 +25,7 @@ function About() {
           </button>
         </div>
         <div className='w-full md:w-1/2 h-[60vh] bg-[#74882c] rounded-3xl overflow-hidden mt-4 md:mt-0'>
-          <img className='w-full h-full object-cover' src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="" />
+          <AboutComponent />
         </div>
       </div>
     </div>
