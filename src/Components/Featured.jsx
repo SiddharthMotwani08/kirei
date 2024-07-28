@@ -1,5 +1,22 @@
 import { motion, useAnimation } from 'framer-motion';
 import React from 'react';
+import {useImage} from 'react-image';
+
+function FeaturedOne() {
+  const {src} = useImage({
+    srcList: 'https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png',
+  })
+
+  return <img src={src} className='w-full h-full object-cover rounded-md' />
+}
+
+function FeaturedTwo() {
+  const {src} = useImage({
+    srcList: 'https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png',
+  })
+
+  return <img src={src} className='w-full h-full object-cover' />
+}
 
 function Featured() {
   const cards = [useAnimation(), useAnimation()];
@@ -26,7 +43,7 @@ function Featured() {
           >
             <div className='w-full h-full rounded-lg overflow-hidden transition ease-in-out hover:scale-90 duration-300'>    
               <div className='w-full h-full relative'>
-              <img className='w-full h-full object-cover rounded-md' src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="" />
+                <FeaturedOne />
               </div>
             </div>
             <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] left-1/2 md:left-full top-1/2 -translate-x-1/2 -translate-y-1/2'>
@@ -49,7 +66,7 @@ function Featured() {
             className='w-full md:w-1/2 h-[50vh] relative'
           >
             <div className='w-full h-full rounded-lg overflow-hidden bg-zinc-800 transition ease-in-out hover:scale-90 duration-300'>
-              <img className='w-full h-full object-cover' src="https://i.ibb.co/zhncwht/Screenshot-2024-05-25-171229.png" alt="" />
+              <FeaturedTwo />
             </div>
             <h1 className='absolute flex overflow-hidden text-4xl md:text-6xl text-[#74882c] font-bold tracking-tight leading-none z-[9] right-1/2 md:right-full top-1/2 translate-x-1/2 -translate-y-1/2'>
                 {'VISE'.split('').map((item, index) => (
