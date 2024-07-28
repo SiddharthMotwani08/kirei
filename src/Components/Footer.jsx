@@ -1,4 +1,13 @@
 import React from 'react';
+import {useImage} from 'react-image'
+
+function FooterImage() {
+  const {src} = useImage({
+    srcList: 'https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png',
+  })
+
+  return <img src={src} className='w-40'/>
+}
 
 function Footer() {
   return (
@@ -16,12 +25,7 @@ function Footer() {
             OPENING
           </h1>
         </div>
-        <div className='w-40'>
-          <img
-            src="https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png"
-            alt="Kirei logo"
-          />
-        </div>
+        <FooterImage />
       </div>
       <div className='w-1/2 h-full flex flex-col justify-between'>
         <h1 className='text-4xl md:text-[8vh] font-semibold leading-none tracking-tighter hyphens-manual'>
