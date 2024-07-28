@@ -1,9 +1,19 @@
 import { gsap } from 'gsap';
 import React, { useEffect, useRef, useState } from 'react';
+import {useImage} from 'react-image'
+
+function MyImageComponent() {
+  const {src} = useImage({
+    srcList: 'https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png',
+  })
+
+  return <img src={src} />
+}
 
 function Navbar() {
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const navbarRef = useRef(null);
+
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -39,10 +49,9 @@ function Navbar() {
   
   return (
     <div ref={navbarRef}
-         className='fixed w-full z-[999] px-5 md:px-8 flex justify-between items-stretch'
-    >
-      <div className='logo w-1/6 md:w-[8vw] md:mb-0'>
-        <img src="https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png" />
+         className='fixed w-full z-[999] px-5 md:px-8 flex justify-between items-center'>
+      <div className='logo w-1/6 md:w-[8vw] md:mb-0'>  
+         <MyImageComponent />
       </div>
       <div className='links gap-4 md:gap-6 flex'>
         {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
