@@ -1,4 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import {useImage} from 'react-image';
+
+function EyeComponent() {
+  const {src} = useImage({
+    srcList: 'https://i.ibb.co/583YBTS/Ochi.png',
+  })
+
+  return <img src={src} className='w-full h-full object-cover' />
+}
 
 function Eyes() {
   const [rotate, setRotate] = useState(0);
@@ -28,8 +37,9 @@ function Eyes() {
       <div
         data-scroll
         data-scroll-speed='-.7'
-        className='w-full h-full bg-cover bg-center relative bg-[url("https://i.ibb.co/583YBTS/Ochi.png")] rounded-md'
+        className='w-full h-full bg-cover bg-center relative rounded-md'
       >
+        <EyeComponent />
         <div className='absolute flex top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] gap-8'>
           <div className='w-[15vw] h-[15vw] bg-zinc-100 rounded-full flex justify-center items-center'>
             <div className='w-2/3 h-2/3 relative bg-zinc-900 rounded-full'>
