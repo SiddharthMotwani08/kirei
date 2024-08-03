@@ -6,7 +6,7 @@ function CardOne() {
       srcList: 'https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png',
     })
   
-    return <img src={src} className='w-[12vw]'/>
+    return <img src={src} className='w-36'/>
   }
 
   function CardTwo() {
