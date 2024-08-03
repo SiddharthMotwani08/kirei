@@ -47,7 +47,7 @@ function Eyes() {
                 style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}
                 className='absolute w-full h-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'
               >
-                <div className='w-10 h-10 bg-zinc-100 rounded-full'></div>
+                <div className='w-[25px] h-[25px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ function Eyes() {
                 style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}
                 className='absolute w-full h-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'
               >
-                <div className='w-10 h-10 bg-zinc-100 rounded-full'></div>
+                <div className='w-[25px] h-[25px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
               </div>
             </div>
           </div>
