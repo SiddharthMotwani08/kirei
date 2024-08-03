@@ -31,7 +31,7 @@ function Footer() {
         <h1 className='text-4xl md:text-[8vh] font-semibold leading-none tracking-tighter hyphens-manual'>
           PRESENTATIO&shy;NS
         </h1>
-        <div>
+        <div className='mb-5'>
           <a className='block text-lg md:text-xl font-extralight mb-2' href="/">
             Facebook
           </a>
