@@ -19,7 +19,7 @@ function LandingPage() {
                   initial={{ width: 0 }}
                   animate={{ width: '7.5vw'}}
                   transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                  className='bg-red-500 w-[7.5vw] h-[6vh] md:h-[9.5vh] rounded-md relative ml-1 mr-1'
+                  className='bg-red-500 w-[7.5vw] h-[6vh] md:h-[9.3vh] rounded-md relative ml-1 mr-1'
                 ></motion.div>
               )}
               <h1 className='masker'>{item}</h1>
@@ -27,7 +27,7 @@ function LandingPage() {
           </div>
         ))}
       </div>
-      <div className='mt-40 md:mt-36 border-zinc-800 border-t-2 flex flex-col gap-4 md:flex-row justify-between items-center px-10 md:px-20 py-4'>
+      <div className='mt-24 md:mt-36 border-zinc-800 border-t-2 flex flex-col gap-4 md:flex-row justify-between items-center px-10 md:px-20 py-4'>
         <p className='md:mr-4 mt-10 md:mt-0 '>
           For public and private companies
         </p>
