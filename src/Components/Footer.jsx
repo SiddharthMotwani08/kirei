@@ -6,7 +6,7 @@ function FooterImage() {
     srcList: 'https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png',
   })
 
-  return <img src={src} className='w-40'/>
+  return <img src={src} className='w-40 -ml-8'/>
 }
 
 function Footer() {
@@ -32,13 +32,13 @@ function Footer() {
           PRESENTATIO&shy;NS
         </h1>
         <div>
-          <a className='block text-lg md:text-xl font-extralight mb-2' href="">
+          <a className='block text-lg md:text-xl font-extralight mb-2' href="/">
             Facebook
           </a>
-          <a className='block text-lg md:text-xl font-extralight mb-2' href="">
+          <a className='block text-lg md:text-xl font-extralight mb-2' href="/">
             Instagram
           </a>
-          <a className='block text-lg md:text-xl font-extralight mb-2' href="">
+          <a className='block text-lg md:text-xl font-extralight mb-2' href="/">
             Twitter
           </a>
         </div>
