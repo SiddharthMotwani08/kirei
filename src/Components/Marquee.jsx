@@ -7,14 +7,14 @@ function Marquee() {
       data-scroll
       data-scroll-section
       data-scroll-speed=".00009"
-      className='w-full bg-[#004D43] rounded-tl-3xl rounded-tr-3xl py-20 overflow-hidden'
+      className='w-full bg-[#004D43] rounded-tl-3xl rounded-tr-3xl py-14 md:py-20 overflow-hidden'
     >
       <div className='flex whitespace-nowrap border-t-2 border-b-2 border-zinc-300 px-5'>
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
-          className='text-[8vw] md:text-[17vw] pr-10 md:pr-28 font-mono font-semibold leading-none tracking-tighter'
+          className='text-[17vw] pr-10 md:pr-28 font-mono font-semibold leading-none tracking-tighter'
         >
           WE ARE KIREI
         </motion.h1>
@@ -22,7 +22,7 @@ function Marquee() {
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
-          className='text-[8vw] md:text-[17vw] pr-10 md:pr-28 font-mono font-semibold leading-none tracking-tighter'
+          className='text-[17vw] pr-10 md:pr-28 font-mono font-semibold leading-none tracking-tighter'
         >
           WE ARE KIREI
         </motion.h1>
