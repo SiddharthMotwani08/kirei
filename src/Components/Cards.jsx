@@ -27,7 +27,7 @@ function CardOne() {
 
 function Cards() {
   return (
-    <div className='w-full h-screen md:flex-row flex flex-col gap-5 items-center px-6'>
+    <div className='w-full h-screen md:flex-row flex flex-col gap-5 items-center px-8'>
         <div className='w-full md:w-1/2 h-[50vh] bg-[#004D43] rounded-lg flex items-center justify-center'>
             <CardOne />
         </div>
