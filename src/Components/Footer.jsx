@@ -16,17 +16,17 @@ function Footer() {
     >
       <div className='w-1/2 h-full flex flex-col justify-between items-start '>
         <div>
-          <h1 className='text-4xl lg:text-6xl font-semibold md:-mb-2 leading-none tracking-tighter'>
+          <h1 className='text-3xl lg:text-6xl font-semibold md:-mb-2 leading-none tracking-tighter'>
             EYE-
           </h1>
-          <h1 className='text-4xl lg:text-6xl font-semibold -mb-4 leading-none tracking-tighter'>
+          <h1 className='text-3xl lg:text-6xl font-semibold -mb-4 leading-none tracking-tighter'>
             OPENING
           </h1>
         </div>
         <FooterImage />
       </div>
       <div className='w-1/2 h-full flex flex-col justify-between'>
-        <h1 className='text-4xl lg:text-6xl font-semibold leading-none tracking-tighter hyphens-manual'>
+        <h1 className='text-3xl lg:text-6xl font-semibold leading-none tracking-tighter hyphens-manual'>
           PRESENTATIO&shy;NS
         </h1>
         <div className='mb-5'>
