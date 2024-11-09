@@ -42,22 +42,22 @@ function Eyes() {
         <EyeComponent />
         <div className='absolute flex top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] gap-8'>
           <div className='w-[15vw] h-[15vw] bg-zinc-100 rounded-full flex justify-center items-center'>
-            <div className='w-2/3 h-2/3 relative bg-zinc-900 rounded-full'>
+            <div className='w-3/4 h-3/4 relative bg-zinc-900 rounded-full'>
               <div
                 style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}
                 className='absolute w-full h-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'
               >
-                <div className='w-[25px] h-[25px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
+                <div className='w-[20px] h-[20px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
               </div>
             </div>
           </div>
           <div className='w-[15vw] h-[15vw] bg-zinc-100 rounded-full flex justify-center items-center'>
-            <div className='w-2/3 h-2/3 relative bg-zinc-900 rounded-full'>
+            <div className='w-3/4 h-3/4 relative bg-zinc-900 rounded-full'>
               <div
                 style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}
                 className='absolute w-full h-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'
               >
-                <div className='w-[25px] h-[25px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
+                <div className='w-[20px] h-[20px] md:w-10 md:h-10 bg-zinc-100 rounded-full'></div>
               </div>
             </div>
           </div>
