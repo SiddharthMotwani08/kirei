@@ -12,23 +12,21 @@ function FooterImage() {
 function Footer() {
   return (
     <div
-      data-scroll
-      data-scroll-speed=".2"
       className='w-full h-screen p-8 md:p-16 flex'
     >
-      <div className='w-1/2 h-full flex flex-col justify-between items-start overflow-hidden'>
+      <div className='w-1/2 h-full flex flex-col justify-between items-start '>
         <div>
-          <h1 className='text-4xl md:text-[8vh] font-semibold md:-mb-2 leading-none tracking-tighter'>
+          <h1 className='text-4xl lg:text-6xl font-semibold md:-mb-2 leading-none tracking-tighter'>
             EYE-
           </h1>
-          <h1 className='text-4xl md:text-[8vh] font-semibold -mb-4 leading-none tracking-tighter'>
+          <h1 className='text-4xl lg:text-6xl font-semibold -mb-4 leading-none tracking-tighter'>
             OPENING
           </h1>
         </div>
         <FooterImage />
       </div>
       <div className='w-1/2 h-full flex flex-col justify-between'>
-        <h1 className='text-4xl md:text-[8vh] font-semibold leading-none tracking-tighter hyphens-manual'>
+        <h1 className='text-4xl lg:text-6xl font-semibold leading-none tracking-tighter hyphens-manual'>
           PRESENTATIO&shy;NS
         </h1>
         <div className='mb-5'>
