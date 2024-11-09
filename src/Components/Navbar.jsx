@@ -48,7 +48,7 @@ function Navbar() {
   return (
     <div ref={navbarRef}
          className='fixed w-full z-[999] px-5 md:px-8 flex justify-between items-center'>
-      <div className='logo w-[80px] lg:w-[120px] md:mb-0'>  
+      <div className='logo w-[92px] lg:w-[120px] md:mb-0'>  
          <MyImageComponent />
       </div>
       <div className='links gap-4 md:gap-6 flex'>
