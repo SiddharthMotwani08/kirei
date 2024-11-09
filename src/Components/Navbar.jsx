@@ -22,10 +22,8 @@ function Navbar() {
       const currentScrollY = window.scrollY;
       
       if (currentScrollY < lastScrollY) {
-        // Scrolling down
         setIsNavbarVisible(true);
       } else {
-        // Scrolling up
         setIsNavbarVisible(false);
       }
       
@@ -50,12 +48,12 @@ function Navbar() {
   return (
     <div ref={navbarRef}
          className='fixed w-full z-[999] px-5 md:px-8 flex justify-between items-center'>
-      <div className='logo w-1/6 md:w-[8vw] md:mb-0'>  
+      <div className='logo w-[80px] lg:w-[120px] md:mb-0'>  
          <MyImageComponent />
       </div>
       <div className='links gap-4 md:gap-6 flex'>
         {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
-          <button key={index} className={`text-sm md:text-lg font-mono ${index === 4 ? "ml-8 md:ml-16" : ""}`}>
+          <button key={index} className={`text-sm lg:text-lg font-mono ${index === 4 ? "ml-8 md:ml-16" : ""}`}>
             {item}
           </button>
         ))}
