@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../assets/Logo.png';
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
             OPENING
           </h1>
         </div>
-        <img src="https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png" className='w-40 -ml-8' alt="Kirei Logo" />
+        <img src={Logo} className='w-40 -ml-8' alt="Kirei Logo" />
       </div>
       <div className='w-1/2 h-full flex flex-col justify-between'>
         <h1 className='text-3xl lg:text-6xl font-semibold leading-none tracking-tighter hyphens-manual'>

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import {useImage} from 'react-image';
+import Ochi from '../assets/Ochi.png';
 
 function EyeComponent() {
   const {src} = useImage({
-    srcList: 'https://i.ibb.co/583YBTS/Ochi.png',
+    srcList: Ochi,
   })
 
   return <img src={src} className='w-full h-full object-cover' />

@@ -1,9 +1,10 @@
 import React from 'react'
 import {useImage} from 'react-image'
+import Logo from '../assets/Logo.png';
 
 function CardOne() {
     const {src} = useImage({
-      srcList: 'https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png',
+      srcList: Logo,
     })
   
     return <img src={src} className='w-28'/>

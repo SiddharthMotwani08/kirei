@@ -1,5 +1,6 @@
 import { gsap } from 'gsap';
 import React, { useEffect, useRef, useState } from 'react';
+import Logo from '../assets/Logo.png';
 
 function Navbar() {
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
@@ -40,7 +41,7 @@ function Navbar() {
     <div ref={navbarRef}
          className='fixed w-full z-[999] px-5 md:px-8 flex justify-between items-center'>
       <div className='logo w-[92px] lg:w-[120px] md:mb-0'>  
-         <img src="https://i.ibb.co/sWrK8Zf/A-logo-for-a-website-design-company-named-Kirei.png" alt="Kirei Logo" />
+         <img src={Logo} alt="Kirei Logo" />
       </div>
       <div className='links gap-4 md:gap-6 flex'>
         {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
