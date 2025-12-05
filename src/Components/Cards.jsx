@@ -1,6 +1,8 @@
 import React from 'react'
 import {useImage} from 'react-image'
 import Logo from '../assets/Logo.png';
+import Logo2 from '../assets/Logo2.svg';
+import Logo3 from '../assets/Logo3.png';
 
 function CardOne() {
     const {src} = useImage({
@@ -12,7 +14,7 @@ function CardOne() {
 
   function CardTwo() {
     const {src} = useImage({
-      srcList: 'https://ochi.design/wp-content/uploads/2022/04/logo002.svg',
+      srcList: Logo2,
     })
   
     return <img src={src} className='w-16' />
@@ -20,7 +22,7 @@ function CardOne() {
 
   function CardThree() {
     const {src} = useImage({
-      srcList: 'https://ochi.design/wp-content/uploads/2022/04/logo003.png',
+      srcList: Logo3,
     })
   
     return <img src={src} className='w-16'/>

@@ -1,9 +1,10 @@
 import React from 'react';
 import {useImage} from 'react-image'
+import Homepage from '../assets/Homepage.jpg';
 
 function AboutComponent() {
   const {src} = useImage({
-    srcList: 'https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg',
+    srcList: Homepage,
   })
 
   return <img src={src} className='w-full h-full object-cover' />
